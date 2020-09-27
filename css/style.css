@@ -1,0 +1,66 @@
+/****** CSS Document ******/
+
+@charset "UTF-8";
+
+/***** Base Styles ******/
+
+html, body{
+	margin: 0px;
+	background: url('../img/symphony.png') repeat; /* Background image from http://subtlepatterns.com/ */
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: dimgray;
+}
+
+/****** About ******/
+
+#introduction { 
+	margin-top: 150px;
+}
+ 
+h1{
+	color:tomato;
+}
+
+h2{
+	color: salmon;
+}
+
+#introduction .name {
+	margin-bottom: 0px;
+	border: 10px solid tomato;
+	padding: 30px;
+	display: inline;
+}
+
+ #introduction .title {
+	margin-top: 40px;
+    padding: 30px;
+}
+
+/****** Contact ******/
+
+.line-break {
+	border: 1px solid grey;
+    margin: 30px auto;
+    width: 50%;
+}
+
+.phone-number {
+	color: darkseagreen;
+} 
+
+.email {
+	color: darkseagreen;
+	text-decoration: none;
+}
+
+/****** Quote Styles ******/
+
+.inspirational-quote {
+	font-style: italic;
+	font-size: 20px;
+	margin-top: 50px;
+	line-height: 30px;
+}
+
